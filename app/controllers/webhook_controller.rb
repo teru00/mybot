@@ -1,4 +1,3 @@
-require '../../lib/line_client.rb'
 class WebhookController < ApplicationController
   protect_from_forgery with: :null_session # CSRF対策無効化
 
